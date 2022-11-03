@@ -447,7 +447,7 @@ SegmentCtx::AllocateFreeSegment(void)
             {
                 POS_TRACE_ERROR(EID(ALLOCATOR_FREE_SEGMENT_ALLOCATION_SUCCESS),
                     "segId {}", segId);
-                assert(false);
+                //assert(false);
             }
             int numFreeSegment = _OnNumFreeSegmentChanged();
             POS_TRACE_DEBUG(EID(ALLOCATOR_FREE_SEGMENT_ALLOCATION_SUCCESS),
